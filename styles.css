@@ -1,0 +1,153 @@
+body{
+    background-color: gainsboro;
+}
+
+main{
+    margin:30px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+nav{
+    background-color:gray;
+    width: 100%;
+    color: white;
+}
+
+ul{
+    padding-right:30px;
+}
+
+li{
+    padding: 0 10px;
+}
+
+.navbar-brand, .nav-link{
+    color:white;
+}
+
+h1{
+    padding: 50px 0 10px;
+    font-weight: bold;
+}
+
+h3{
+    padding: 70px 0 15px;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1px solid silver;
+    padding: 2px 30px;
+    clear: right;
+  }
+
+.description{
+padding-top: 30px;
+}
+
+article{
+    line-height: 2;
+}
+
+#btn{
+    margin: 10px 0 20px;
+}
+
+.btn.btn-outline-secondary:hover{
+    color:#6C757D;
+    background-color:lightgrey;
+}
+
+.btn.btn-outline-secondary:focus{
+    color:white;
+    background-color:#6C757D;
+}
+
+
+.download th, .download td{
+    
+    border: solid white thin;
+    padding: 3px 10px 3px 10px;
+}
+
+.download th{
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+
+#link{
+    color:steelblue;
+}
+
+#link:hover{
+    color:midnightblue;
+    text-decoration: none;
+}
+
+.pic2,.pic{
+    background-color: black;
+}
+
+.pic{
+    height:140px;
+    margin: 15px 0 30px;
+}
+
+
+
+h5{
+    padding: 10px 0 10px 0;
+}
+
+.intro{
+    width:100%;
+}
+
+
+.blackbox{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid black;
+    margin-top:60px;
+}
+
+.topr{
+    text-align: center;
+    background-color: #303030;
+    color:white;
+}
+
+#name{
+    font-size:large;
+    font-weight: bold;
+    margin: 5px auto 0;
+}
+#pron{
+    font-size:small;
+    font-weight: bold;
+}
+
+#author-info{
+    font-size: small;
+    color:white;
+    text-align: center;
+}
+
+.blackbox th, .blackbox td{
+    background-color:#303030;
+    padding: 6px 10px 6px 10px;
+    color:white;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+
+.blackbox td{
+    background-color:black;
+    border-bottom: solid #303030 thin;
+    text-align: left;
+}
